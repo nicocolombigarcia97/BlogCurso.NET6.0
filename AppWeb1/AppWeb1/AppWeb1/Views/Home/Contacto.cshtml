@@ -1,0 +1,49 @@
+﻿@model Contacto
+
+@{
+    ViewData["Title"] = "Contacto";
+    ViewData["imagen"] = "/assets/img/contact-bg.jpg";
+    ViewData["titleHeader"] = "Contacto";
+    ViewData["subTitleHeader"] = "Contactanos";
+}
+
+
+<html lang="en">
+    <head>
+        <title>@ViewData["Title"]</title>
+    </head>
+    <body>
+        
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('@ViewData["imagen"]')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="page-heading">
+                            <h1>@ViewData["titleHeader"]</h1>
+                            <span class="subheading">@ViewData["subTitleHeader"]</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <main class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <p>Si deseas hablar con nosotros, completa el formulario de aqui debajo!</p>
+                        <div class="my-5">
+                            <form asp-action="Contacto">
+                                <partial name="_formContacto" model="@Model" />
+                                <button class="btn btn-primary text-uppercase" type="submit" value="Contacto">Enviar consulta</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
+
+

@@ -1,0 +1,24 @@
+﻿@model Contacto
+
+<div class="mb-3">
+    <label for="Nombre" class="form-label">Nombre completo</label>
+    <input asp-for="Nombre" type="text" class="form-control" id="Nombre" aria-describedby="Nombre"describedby/>
+    @Html.ValidationMessageFor(x=>x.Nombre,"",new{@class="text-danger"})
+</div>
+<div>
+    <label for="Email" class="form-label">Direccion de email</label>
+    <input asp-for="Email" type="text" class="form-control" id="Email" aria-describedby="Email"describedby/>
+    @Html.ValidationMessageFor(x=>x.Email,"",new{@class="text-danger"})
+</div>
+<div>
+    <label for="Telefono" class="form-label">Telefono de contacto</label>
+    <input asp-for="Telefono" type="text" class="form-control" id="Telefono" aria-describedby="Telefono"describedby/>
+    @Html.ValidationMessageFor(x=>x.Telefono,"",new{@class="text-danger"})
+</div>
+<div>
+    <label for="Mensaje" class="form-label">Ingrese su consulta</label>
+    <textarea asp-for="Mensaje" class="form-control" id="Mensaje" aria-describedby="Mensaje">
+
+    </textarea>
+    @Html.ValidationMessageFor(x=>x.Mensaje,"",new{@class="text-danger"})
+</div>

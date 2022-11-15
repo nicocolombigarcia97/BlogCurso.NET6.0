@@ -1,0 +1,6 @@
+C:\Users\devinacho\Desktop\TIRI\Proyectos C#\AppWeb1\AppWeb1\BlogDatabase\bin\Debug\BlogDatabase.dacpac
+C:\Users\devinacho\Desktop\TIRI\Proyectos C#\AppWeb1\AppWeb1\BlogDatabase\bin\Debug\BlogDatabase.dll
+C:\Users\devinacho\Desktop\TIRI\Proyectos C#\AppWeb1\AppWeb1\BlogDatabase\bin\Debug\BlogDatabase.pdb
+C:\Users\devinacho\Desktop\TIRI\Proyectos C#\AppWeb1\AppWeb1\BlogDatabase\obj\Debug\BlogDatabase.sqlproj.AssemblyReference.cache
+C:\Users\devinacho\Desktop\TIRI\Proyectos C#\AppWeb1\AppWeb1\BlogDatabase\obj\Debug\BlogDatabase.dll
+C:\Users\devinacho\Desktop\TIRI\Proyectos C#\AppWeb1\AppWeb1\BlogDatabase\obj\Debug\BlogDatabase.pdb
